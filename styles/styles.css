@@ -1,0 +1,82 @@
+html {
+  font-size: 1rem;
+  /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Open Sans", sans-serif;
+  /* this should be the rest of the output you got from Google Fonts */
+  background-color: #ccc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    border: 1px solid #333;
+}
+h1, .title {
+  margin: 0;
+  padding: 20px 0;
+  color: #333;
+  text-shadow: 2px 2px 1px #fff;
+  font-size: 4rem;
+  text-align: center;
+}
+h2 {
+  margin: 0;
+  padding: 5px 0;
+}
+.banner {
+  /* display: block; */
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+p,
+li {
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.container {
+display: flex;
+width: 80%;
+margin: 0 auto;
+}
+.left, .right {
+  width: 45%;
+  padding: 1rem;
+}
+.left {
+  border-right: 1px solid #bbb;
+}
+
+a {
+  text-decoration: none;
+  color: #0000fa80;
+  margin: 0;
+}
+a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+li {
+  list-style-type: none;
+}
+.button {
+  text-align: center;
+}
+
+button {
+  background-color: #0000fa80;
+  /* Green */
+  border: none;
+  border-radius: .5rem;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
